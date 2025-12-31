@@ -10,16 +10,16 @@ const isValidLink = (url) =>
   typeof url === "string" && url.trim() !== "" && url.trim() !== "#";
 
 const mainProjects = [
-  {
-    title: "LS Marketplace - FiveM Marketplace (Video Game)",
-    description:
-      "LS Marketplace is a roleplay-focused web marketplace for GTA V FiveM, simulating a player-driven underground economy through structured listings, approvals, and reputation-based access. It’s built with React 18 + TypeScript, Vite, Tailwind CSS (shadcn/Radix UI), and powered by Supabase (Postgres, Auth, RLS), then deployed as a SPA on Vercel.",
-    src: "rock.jpg",
-    link: lsMarketImg,
-    color: "#5196fd",
-    githubLink: "#",
-    liveLink: "https://lsmarket.vercel.app/",
-  },
+  // {
+  //   title: "LS Marketplace - FiveM Marketplace (Video Game)",
+  //   description:
+  //     "LS Marketplace is a roleplay-focused web marketplace for GTA V FiveM, simulating a player-driven underground economy through structured listings, approvals, and reputation-based access. It’s built with React 18 + TypeScript, Vite, Tailwind CSS (shadcn/Radix UI), and powered by Supabase (Postgres, Auth, RLS), then deployed as a SPA on Vercel.",
+  //   src: "rock.jpg",
+  //   link: lsMarketImg,
+  //   color: "#5196fd",
+  //   githubLink: "#",
+  //   liveLink: "https://lsmarket.vercel.app/",
+  // },
   {
     title: "A sleek portfolio built with React and Tailwind CSS ",
     description:
@@ -28,7 +28,7 @@ const mainProjects = [
     link: portfolioImg,
     color: "#8f89ff",
     githubLink: "#",
-    liveLink: "https://mdelacruz.dev/",
+    liveLink: "https://itsmarcdelacruz.github.io/",
   },
 ];
 
